@@ -1,6 +1,6 @@
 # Cubit Counter App 🚀
 
-This repository contains the source code for the tutorial **[Bloc Too Tough? Start with Cubit for a Smoother Ride!](https://medium.com/@tech.ramakant/bloc-too-tough-start-with-cubit-for-a-smoother-ride)** published on Medium. It demonstrates how to convert the default Flutter counter app to use **Cubit** state management, making state handling smoother and more scalable.
+This repository contains the source code for the tutorial **[Bloc Too Tough? Start with Cubit for a Smoother Ride!](https://medium.com/@tech.ramakant/bloc-too-tough-start-with-cubit-for-a-smoother-ride-2a437435d3e5)** published on Medium. It demonstrates how to convert the default Flutter counter app to use **Cubit** state management, making state handling smoother and more scalable.
 
 
 ## Table of Contents
