@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => CounterCubit(),  // Step 2: Provide the CounterCubit
+      create: (context) => CounterCubit(), //todo - Step 2: Provide the CounterCubit
       child: MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(
@@ -26,30 +26,17 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyHomePage extends StatefulWidget {
+class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key, required this.title});
 
   final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.title),
+        title: Text(title),
       ),
       body: Center(
         child: Column(
@@ -58,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               'You have pushed the button this many times:',
             ),
-            // Step 3: Listen to changes in Cubit state
+            //todo - Step 3: Listen to changes in Cubit state
             BlocBuilder<CounterCubit, int>(
               builder: (context, count) {
                 return Text(
@@ -71,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        // Step 4: Trigger the increment function in Cubit
+        //todo - Step 4: Trigger the increment function in Cubit
         onPressed: () => context.read<CounterCubit>().increment(),
         tooltip: 'Increment',
         child: const Icon(Icons.add),
