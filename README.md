@@ -2,7 +2,6 @@
 
 This repository contains the source code for the tutorial **[Bloc Too Tough? Start with Cubit for a Smoother Ride!](https://medium.com/@tech.ramakant/bloc-too-tough-start-with-cubit-for-a-smoother-ride-2a437435d3e5)** published on Medium. It demonstrates how to convert the default Flutter counter app to use **Cubit** state management, making state handling smoother and more scalable.
 
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -12,6 +11,8 @@ This repository contains the source code for the tutorial **[Bloc Too Tough? Sta
 - [License](#license)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Contact](#contact)
+
+## Introduction
 
 Welcome to the **Cubit Counter App**! This project showcases how you can manage state in a Flutter application using **Cubit** from the **Bloc** package, a lightweight alternative to `setState()` that allows for better state management without the complexity of Bloc.
 
